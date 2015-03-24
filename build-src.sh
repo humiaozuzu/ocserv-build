@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get install -y build-essential autogen pkg-config texinfo libhogweed2 libgmp3-dev gettext
-apt-get install -y build-essential libxml2-dev libgeos++-dev libpq-dev libbz2-dev libtool automake
+apt-get install -y build-essential libxml2-dev libgeos++-dev libpq-dev libbz2-dev libreadline-dev libtool automake
 apt-get install -y gnutls-bin
 apt-get install -y unbound-anchor
 mkdir /etc/unbound
